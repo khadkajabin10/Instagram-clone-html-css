@@ -1,0 +1,184 @@
+.innerfrow{
+
+width:300px ;
+height: 70px;
+display: flex;
+flex-direction: row;
+margin-top: 2px;
+margin-left:2px ;
+}
+.innerimg{
+  width: 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.immg{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+ 
+
+}
+.innername{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+ 
+
+}
+.innerpname{
+  display: flex;
+  height: 35px;
+
+  
+  
+  font-family: "Segoe UI", Roboto, 
+  Helvetica, Arial, sans-serif;
+
+font-size:14px;
+font-weight :600;
+ color: rgb(8, 7, 7);
+  padding-top: 5px;
+  padding-bottom:0px ;
+  align-items: end;
+
+  
+}
+.innernickname{
+  display: flex;
+  height: 30px;
+
+  height: 37px;
+  
+  width: 200px;
+  
+  color: rgb(120, 120, 120);
+  padding-top: -10px;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+
+  font-size:12px;
+  font-weight :600;
+}
+.tootip{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+.innersrow{
+ 
+  height: 70px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border-bottom:  1px solid rgb(215, 213, 213);
+
+
+}
+.number{
+  margin-top:15px ;
+display: flex;
+flex-direction: row;
+
+
+justify-content: space-between;
+align-items: center;
+margin-left:40px ;
+margin-right: 60px;
+
+}
+.post{
+
+display: flex;
+flex-direction: row;
+
+justify-content: space-between;
+align-items: center;
+margin-left: 36px;
+margin-right: 36px;
+
+
+}
+.innertrow{
+  width: 300;
+  display: flex;
+  flex-direction: column;
+  height: 120px;
+
+  justify-content: center;
+}
+.privateimg{
+  height: 62px;
+
+justify-content: center;
+display: flex;
+}
+.pimg{
+  height: 62px;
+  display: flex;
+  justify-content: center;
+}
+.thisacisprivate{
+  height: 29px;
+  width: 300px;
+  background-color:white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-weight :600;
+  color: rgb(8, 7, 7);
+  font-size: 16px;
+
+}
+.followthis{
+  height: 29px;
+  width: 300px;
+  font-size:10px;
+  font-weight :600;
+  color: rgb(120, 120, 120);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+
+  border-bottom:  1px solid rgb(215, 213, 213);
+
+}
+.innerforthrow{
+  display: flex;
+  flex-direction: row;
+  height:50px ;
+  justify-content: center;
+  margin-top:10px ;
+  
+}
+.button{
+  height: 40px;
+  width:280px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+ background-color: rgb(0, 149, 246);
+ border: none;
+ border-radius: 7px;
+ 
+}
+
+
+ 
+
+.addimg{
+  height: 25px;
+  color: white;
+  margin-right: 1px;
+  margin-left: 3px;
+
+}
+.followbotton{
+  color: white;
+
+
+}

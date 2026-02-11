@@ -1,0 +1,323 @@
+.name {
+  color: rgb(120, 120, 120);
+  margin-top: 10px;
+ 
+}
+.profile-preview{
+  margin-left: 452px;
+margin-right: 500px;
+margin-top:20px;
+
+}
+.top{
+  display: flex;
+  width: 470px;
+  height: 60px;
+
+ flex-direction: row;
+align-items: center;
+z-index: 5;
+
+
+
+}
+
+.profilepicture{
+  display: flex;
+ 
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 6;
+
+  margin-right: 0px;
+  cursor: pointer;
+  position: relative;
+
+}
+.wife{
+  display: flex;
+  width: 50px;
+  margin-right: 12px;
+}
+
+.wife  .tooltip{
+  position: absolute;
+  height: auto;
+  opacity: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+ 
+  width: 300px;
+  transition: opacity 0.15s;
+  align-items: center;
+  left:460px;
+  top: 194px;
+  pointer-events: none;
+
+  z-index: 7;
+  display: block;
+  
+}
+.wife:hover  .tooltip{
+  opacity: 1;
+}
+
+
+.profilename{
+  font-weight: bold;
+  display: flex;
+  font-size: 15px;
+  width: 118px;
+  position: relative;
+  cursor: pointer;
+ 
+  
+
+}
+.profilename .tooltip{
+  position: absolute;
+  height: auto;
+  opacity: 0;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+ 
+  width: 300px;
+  transition: opacity 0.15s;
+  align-items: center;
+  left:-4px;
+  top: 20px;
+  pointer-events: none;
+
+  z-index: 7;
+  display: block;
+  
+}
+.profilename:hover .tooltip{
+  opacity: 1;
+}
+
+
+
+.verified{
+  display: flex;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 3px;
+}
+.fortimeandthreedot{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+
+}
+.time{
+  font-size: 16px;
+  color: rgb(120, 120, 120);
+  width: 50px;
+  display: flex;
+  align-items: center;
+  
+
+}
+.threedot{
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  width: 20px;
+
+}
+.middle{
+ 
+  height: 450px;
+  width: 500px;
+
+}
+.photo{
+  height: 450px;
+  width: 470px;
+  margin-top:10px ;
+  margin-bottom: 10px;
+  
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.bottom{
+
+width:500px;
+height:200px ;
+
+margin-top: 20px;
+
+
+
+
+}
+.toprow{
+ 
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.love{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 8px;
+
+  margin-left: 0;
+  align-items: center;
+  object-fit: contain;
+
+}
+.comment{
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 6px;
+}
+.toprowend{
+  display: flex;
+  flex-direction: row;
+
+  width: 420px;
+  justify-content: space-between;
+}
+.share{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 9px;
+}
+.save{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.likes{
+  width: 500px;
+
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 5px;
+ 
+}
+.threerow{
+  display: flex;
+  width: 500px;
+  height: 22px;
+ 
+  flex-direction: row;
+  margin-top: 10px;
+align-items: top;
+margin-bottom: 0px;
+}
+.para{
+  font-size: 14px;
+
+  margin-top: 1px;
+}
+.more{
+  margin:0 0 0 0;
+  font-size: 14px;
+   color:  rgb(120, 120, 120);
+   margin-bottom: 10px;
+
+
+}
+.translation{
+  margin:0 0 0 0;
+  font-size: 14px;
+   font-weight: bold;
+   margin-bottom: 6px;
+  
+}
+.view{
+  margin:0 0 0 0;
+  font-size: 14px;
+   color:  rgb(120, 120, 120);
+   margin-bottom: 5px;
+  
+}
+.forcommentsection{
+  display: flex;
+ 
+  width: 500px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: bottom;
+}
+.emoji{
+  width:14px;
+  height: 14px;
+  border-radius: 50%;
+
+}
+.addcomment{
+  color: rgb(120, 120, 120) ;
+  font-size: 16px;
+
+}
+.innertrows{
+  width: 300;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+
+  justify-content: space-between;
+ 
+ 
+}
+.space{
+  gap: 1px;
+}
+.messiwife{
+  height:120px ;
+  width: 98px;
+
+
+}
+.buttons{
+  height: 40px;
+  width:130px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+ background-color: rgb(36, 166, 252);
+ border: none;
+ border-radius: 7px;
+ margin-right: 10px;
+ 
+}
+.following{
+  height: 40px;
+  width:130px ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ align-items: center;
+ background-color: rgb(235,235,235);
+ border:none ;
+ border: none;
+ border-radius: 7px;
+ 
+}
